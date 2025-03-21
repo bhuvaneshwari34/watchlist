@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watchlist Feature</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left side - List of stocks -->
+    <div id="stock-list">
+      <h2>Available Stocks</h2>
+      <div class="stock-item" data-symbol="AAPL">
+        <span>AAPL: $145.30</span>
+        <button class="add-btn">Add to Watchlist</button>
+      </div>
+      <div class="stock-item" data-symbol="GOOG">
+        <span>GOOG: $2725.60</span>
+        <button class="add-btn">Add to Watchlist</button>
+      </div>
+      <div class="stock-item" data-symbol="AMZN">
+        <span>AMZN: $3345.10</span>
+        <button class="add-btn">Add to Watchlist</button>
+      </div>
+      <div class="stock-item" data-symbol="TSLA">
+        <span>TSLA: $625.50</span>
+        <button class="add-btn">Add to Watchlist</button>
+      </div>
+    </div>
+
+    <!-- Right side - Watchlist sidebar -->
+    <div id="watchlist-sidebar">
+      <h2>My Watchlist</h2>
+      <ul id="watchlist">
+        <!-- Watchlist items will be added here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
